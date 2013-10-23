@@ -1,1 +1,1 @@
-add_lunch_combo full_pyramid-userdebug
+add_lunch_combo r2x2_pyramid-userdebug

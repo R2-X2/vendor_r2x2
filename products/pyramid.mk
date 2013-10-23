@@ -8,7 +8,7 @@ $(call inherit-product, vendor/r2x2/config/common_full_phone.mk)
 $(call inherit-product, device/htc/pyramid/device.mk)
 
 # Device naming
-PRODUCT_NAME := full_pyramid
+PRODUCT_NAME := r2x2_pyramid
 PRODUCT_DEVICE := pyramid
 PRODUCT_BRAND := htc
 PRODUCT_MODEL := HTC Sensation
@@ -21,7 +21,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=htc_pyramid BUILD_FINGERPRINT=tmous
 # Set up the product codename, build version & MOTD.
 #
 PRODUCT_CODENAME := R2X2
-PRODUCT_VERSION_DEVICE_SPECIFIC := -aosp
+PRODUCT_VERSION_DEVICE_SPECIFIC := -r2x2
 
 # Copy compatible prebuilt files
 PRODUCT_COPY_FILES +=  \
