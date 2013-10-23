@@ -8,7 +8,7 @@ $(call inherit-product, vendor/r2x2/config/common_full_phone.mk)
 $(call inherit-product, device/htc/pyramid/device.mk)
 
 # Device naming
-PRODUCT_NAME := r2x2_pyramid
+PRODUCT_NAME := full_pyramid
 PRODUCT_DEVICE := pyramid
 PRODUCT_BRAND := htc
 PRODUCT_MODEL := HTC Sensation
