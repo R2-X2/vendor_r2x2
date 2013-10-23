@@ -26,7 +26,7 @@ PRODUCT_PACKAGES += \
 # Custom init script
 
 PRODUCT_COPY_FILES += \
-    vendor/r2x2/prebuilt/common/etc/init.r2x2.rc:root/init.r2x2.rc
+    vendor/r2x2/prebuilt/common/etc/init.local.rc:root/init.r2x2.rc
 
 # Utilize init.d scripts
 
